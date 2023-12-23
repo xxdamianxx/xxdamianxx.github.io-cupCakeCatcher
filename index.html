@@ -4,7 +4,7 @@
 	<title>🧁Catching Cupcakes🧁</title>
 </head>
 <body>
-	<canvas height="100%" width="100%" id="ctx" style="border: 1px solid black"></canvas>
+	<canvas height="1200" width="3600" id="ctx" style="border: 1px solid black"></canvas>
 	<script type="text/javascript">
 		var ctx = document.getElementById('ctx').getContext('2d');
 		var catcherOne = new Image();
@@ -79,8 +79,8 @@
 			}
 		}
 
-      	var eatingSound = new sound("sound/eat.mp3");
-    	var droppingSound = new sound("sound/drop.mp3");
+      	var eatingSound = new sound("sounds/eat.mp3");
+    	var droppingSound = new sound("sounds/drop.mp3");
 
 		background.onload = function(){
 			blood.onload = function() {
